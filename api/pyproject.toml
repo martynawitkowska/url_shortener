@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "url shortener"
+version = "0.1.0"
+description = "URL Shortenr project recruitment task."
+authors = ["Martyna Witkowska <mar.witkowska@gmail.com>"]
+license = "Beerware"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "4.2.1"
+djangorestframework = "3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
