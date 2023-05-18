@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "url shortener"
 version = "0.1.0"
-description = "URL Shortenr project recruitment task."
+description = "URL Shortener project recruitment task."
 authors = ["Martyna Witkowska <mar.witkowska@gmail.com>"]
 license = "Beerware"
 readme = "README.md"
