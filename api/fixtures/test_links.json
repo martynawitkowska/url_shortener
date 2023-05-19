@@ -1,0 +1,29 @@
+[
+  {
+    "model": "shortener.url",
+    "pk": 1,
+    "fields": {
+      "url": "http://www.quickmeme.com/img/10/10dda50f5a607253408c31b47a23902fc509b6f8311ffcc5bf3d29a53caaf392.jpg",
+      "short_url": "Nhd8rcbaSYUBhJKLq9fiGQ",
+      "created_at": "2023-05-19T09:08:07.691Z"
+    }
+  },
+  {
+    "model": "shortener.url",
+    "pk": 2,
+    "fields": {
+      "url": "https://www.memesmonkey.com/images/memesmonkey/54/5432ece548b12fc4c809687bc8341da4.jpeg",
+      "short_url": "fdMYv5SadxMZ8TrEzfR3y9",
+      "created_at": "2023-05-19T09:09:50.218Z"
+    }
+  },
+  {
+    "model": "shortener.url",
+    "pk": 3,
+    "fields": {
+      "url": "https://i.pinimg.com/originals/7a/26/1c/7a261cf57a415addbb7d94fa6ef2d64a.png",
+      "short_url": "4KosSjJwwdXgT49pGWuARc",
+      "created_at": "2023-05-19T09:19:05.479Z"
+    }
+  }
+]
