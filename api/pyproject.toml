@@ -25,6 +25,14 @@ dj-database-url = "2.0.0"
 DJANGO_SETTINGS_MODULE = "config.settings"
 python_files = ["test_*.py"]
 
+addopts = [
+    "--cov=.",
+    "--cov-config=.coveragerc",
+    "--cov-report",
+    "term-missing:skip-covered",
+    "--cov-fail-under=80"
+]
+
 [tool.black]
 line-length = 120
 target-version = ['py311']
