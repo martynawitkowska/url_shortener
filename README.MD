@@ -4,10 +4,21 @@
 
 A Django URL shortener app is a web application that generates short, customized links that redirect to longer URLs. It uses Django and a database to store original and short URLs, and may incorporate third-party services for URL shortening. The app is useful for simplifying the sharing of links online.
 
+## Demo
+
+* [Swagger](https://martyna-shortener.herokuapp.com/api/schema/swagger-ui/)
+* [Browsable API](https://martyna-shortener.herokuapp.com/api/v1/urls/)
+
+Some preexisting shortened links in the database:
+
+* https://martyna-shortener.herokuapp.com/dNccwavSiicKFWA8i7xJbT
+* https://martyna-shortener.herokuapp.com/E6ksEZJfJU6fWR4SYcfnKG
+* https://martyna-shortener.herokuapp.com/DwveVLKvQEJtRJWKQBhtZG
+
+
 ## Tech Stack
 
 **Server:** Python, Django, Django Rest Framework, Pytest, Docker, Postgres
-
 
 ## Run Locally
 
@@ -52,9 +63,9 @@ Go to your client and type
 
 Here are links from test data file that you can visit:
 
-http://0.0.0.0:8000/Nhd8rcbaSYUBhJKLq9fiGQ
-http://0.0.0.0:8000/fdMYv5SadxMZ8TrEzfR3y9
-http://0.0.0.0:8000/4KosSjJwwdXgT49pGWuARc
+* http://0.0.0.0:8000/Nhd8rcbaSYUBhJKLq9fiGQ
+* http://0.0.0.0:8000/fdMYv5SadxMZ8TrEzfR3y9
+* http://0.0.0.0:8000/4KosSjJwwdXgT49pGWuARc
 
 ## Environment Variables
 
@@ -97,6 +108,8 @@ To run tests, run the following command
 ```bash
   docker compose exec api pytest
 ```
+
+![Cov Report](https://github.com/martynawitkowska/url_shortener/blob/main/media/coverage_report.png)
 
 ## Authors
 
