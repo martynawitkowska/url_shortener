@@ -1,5 +1,5 @@
 # URL Shortener
-
+[![Coverage Report](https://img.shields.io/badge/coverage-98%25-green)](https://github.com/martynawitkowska/url_shortener/blob/main/media/coverage_report.png)
 [![Beerware License](https://img.shields.io/badge/license-Beerware-yellowgreen)](https://github.com/martynawitkowska/url_shortener/blob/main/LICENSE)
 
 A Django URL shortener app is a web application that generates short, customized links that redirect to longer URLs. It uses Django and a database to store original and short URLs, and may incorporate third-party services for URL shortening. The app is useful for simplifying the sharing of links online.
