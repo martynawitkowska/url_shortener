@@ -4,9 +4,14 @@ from . import models
 
 
 class URLSerializer(serializers.ModelSerializer):
+    short_url = serializers.SerializerMethodField()
+
     class Meta:
         model = models.URL
         fields = ("short_url",)
+
+    def get_short_url(self, obj):
+        return self.context.get("request").build_absolute_uri("/") + obj.short_url
 
 
 class OriginalURLSerializer(serializers.ModelSerializer):
