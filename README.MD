@@ -6,14 +6,7 @@ A Django URL shortener app is a web application that generates short, customized
 
 ## Demo
 
-* [Swagger](https://martyna-shortener.herokuapp.com/api/schema/swagger-ui/)
-* [Browsable API](https://martyna-shortener.herokuapp.com/api/v1/urls/)
-
-Some preexisting shortened links in the database:
-
-* https://martyna-shortener.herokuapp.com/dNccwavSiicKFWA8i7xJbT
-* https://martyna-shortener.herokuapp.com/E6ksEZJfJU6fWR4SYcfnKG
-* https://martyna-shortener.herokuapp.com/DwveVLKvQEJtRJWKQBhtZG
+![Shortener Demo](https://github.com/martynawitkowska/url_shortener/blob/main/media/shortener_demo.gif)
 
 
 ## Tech Stack
